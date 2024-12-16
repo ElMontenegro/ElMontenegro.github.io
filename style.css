@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "sketchy";
+    src: url(sketchy.ttf);
+}
+
+@font-face {
+    font-family: "forte";
+    src: url(FORTE.TTF);
+}
+
+@font-face {
+    font-family: "gill";
+    src: url(gillsansmt.ttf);
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+  }
+
+.navbar{
+    background-color: #776ab0;
+    border-radius: 25px;
+}
+
+.s-cont{
+    background-color: #fde4e5;
+    border-radius: 25px;
+}
+
+body{
+    background-color:#fde4e5;
+    font-family: "gill";
+}
+
+.h-abt{
+    background-color: #776ab0;
+}
+
+.bg-dpur{
+    background-color: #776ab0;
+}
+
+.f-dpur{
+    color: #776ab0;
+}
+.bg-pur{
+    background-color: #ac87bd;
+}
+
+.f-pur{
+    color: #ac87bd;
+}
+
+.bg-pi{
+    background-color: #e0aed0;
+}
+
+.bg-pi{
+    background-color: #e0aed0;
+}
+
+.bg-pi-t{
+    background-color: #e0aed0a9;
+}
+
+.f-pi{
+    color: #e0aed0;
+}
+
+.bg-bpi{
+    background-color:#fde4e5 ;
+}
+
+.f-bpi{
+    color:#fde4e5 ;
+}
+
+
+
+.art-col{
+    border-radius: 10px;
+    object-fit: contain;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.pin-scroll{
+    scrollbar-color: #776ab0;
+}
+
+ /* The heart of the matter */
+        
+ .horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-scrollable > .row > .col-4 {
+    display: inline-block;
+    float: none;
+}
+
+select{
+    background-color: #fde4e5;
+    border-radius: 10px;
+    padding: 10px;
+    width: 25%;
+    border: 2px #ac87bd solid;
+    color: #776ab0;
+    font-weight: bold;
+}
+
+input[type="radio"] {
+    appearance: none;
+    background-color: #e0aed0;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.5em;
+    height: 1.5em;
+    border: 0.2em solid #776ab0;
+    border-radius: 50%;
+  }
+
+  .contact-input::placeholder{
+    color: #776ab0;
+    font-weight: 600;
+    font-size: x-large;
+  }

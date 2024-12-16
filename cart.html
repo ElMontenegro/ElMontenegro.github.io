@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MoriToTheMoon's Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/cow logo 1.png">
+  </head>
+  <body class="p-5">
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light py-2 mb-5">
+      <div class="container-fluid d-flex flex-row justify-content-center">
+        <div class="container w-25 float-start p-0 m-0" onclick="toHome()" style="cursor: pointer;">
+          <img src="./assets/cow logo 1.png" width="100" height="100" class="float-start" />
+        </div>
+        <div class="container w-50 s-cont d-flex justify-content-center align-items-center">
+          <input type="text" placeholder="Search...">
+          <img src="./assets/3844432_magnifier_search_zoom_icon 2.png" width="50" height="50" />
+        </div>
+        <div class="container w-25 p-0 m-0 d-flex justify-content-end">
+          <img src="./assets/8542029_heart_love_like_icon.png" width="50" height="50" class="mx-2"/>
+          <img src="./assets/8664960_cart_shopping_icon.png" alt="" width="50" height="50" class="mx-2" onclick="toCart()" style="cursor: pointer;"/>
+          <img src="./assets/4476899_description_about_interface_info_web icons_icon.png" width="50" height="50" class="mx-2"/>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid d-flex flex-row">
+        <div class="container-fluid d-flex flex-column" style="width: 60%; color: #776ab0; font-family: 'forte';">
+            <div class="container-fluid d-flex flex-row p-2 my-2" style="border: #ac87bd 3px solid; border-radius: 25px;">
+            <div class="container-fluid d-flex flex-row w-25 m-0" onclick="toMareepPage()">
+                <div class="art-col ratio bg-dpur position-relative" style="border-radius: 25px; border: 10px #ac87bd solid;">
+                    <img src="./assets/IMG_20241114_084109491.jpg" alt="" class="object-fit-cover" style="border-radius: 25px;">
+                </div>
+            </div>
+            <div class="container-fluid w-50 d-flex flex-column mt-3">
+                <h2 class="mb-4">Mareep Stickers</h2>
+                <select name="Quantity" id="" style="font-size: 24px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="container-fluid w-25">
+                <h2>$4.00 USD</h2>
+            </div>
+            </div>
+            <div class="container-fluid d-flex flex-row p-2 my-2" style="border: #ac87bd 3px solid; border-radius: 25px;">
+                <div class="container-fluid d-flex flex-row w-25 m-0" onclick="toChainsawPage()">
+                    <div class="art-col ratio bg-dpur position-relative" style="border-radius: 25px; border: 10px #ac87bd solid;">
+                        <img src="./assets/IMG_20241114_084914989_HDR.jpg" alt="" class="object-fit-cover" style="border-radius: 25px;">
+                    </div>
+                </div>
+                <div class="container-fluid w-50 d-flex flex-column mt-3">
+                    <h2 class="mb-4">Legend of Zelda | TOTK Link Sticker</h2>
+                    <select name="Quantity" id="" style="font-size: 24px;">
+                        <option value="1">1</option>
+                        <option value="2" selected>2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="container-fluid w-25">
+                    <h2>$7.00 USD</h2>
+                </div>
+                </div>
+
+        </div>
+        <div class="container-fluid bg-pi d-flex flex-column px-5 py-3 ms-3 f-dpur" style="width: 40%; border-radius: 25px;">
+            <h2>How will you pay</h2>
+            <div class="container d-flex flex-column">
+                <div class="container my-2 cart-cont">
+                    <input type="radio" name="Visa" id="">
+                    <label for="Visa"><img src="./assets/visa_logo.png" alt="" width="100"></label>
+                </div>
+                <div class="container my-2 cart-cont">
+                    <input type="radio" name="Paypal" id="">
+                    <label for="Visa"><img src="./assets/paypal_logo.png" alt="" width="150"></label>
+                </div>
+            </div>
+            <div class="container-fluid d-flex flex-row justify-content-between my-1 px-2">
+              <h4>Item(s) total</h4>
+              <h4>$11.00</h4>
+            </div>
+            <div class="container-fluid d-flex flex-row justify-content-between my-1 pb-5 px-2" style=" border-bottom: #776ab0 3px solid;">
+              <h4>Shop Discount</h4>
+              <h4>$0.00</h4>
+            </div>
+            <div class="container-fluid d-flex flex-row justify-content-between my-1 px-2" >
+              <h4>Subtotal</h4>
+              <h4>$11.00</h4>
+            </div>
+            <div class="container-fluid d-flex flex-row justify-content-between my-1 px-2">
+              <h4>Shipping</h4>
+              <h4>$2.00</h4>
+            </div>
+            <h6 class="pb-5 px-2" style=" border-bottom: #776ab0 3px solid;">(To United States, 12345)</h6>
+            <div class="container-fluid d-flex flex-row justify-content-between my-1 px-2">
+              <h4>Total (3 items)</h4>
+              <h4>$13.00</h4>
+            </div>
+            <div class="container p-2 bg-pur text-center f-bpi" style="border-radius: 25px; box-shadow: #776ab0 5px 5px; width: 35%;">
+                <h4>Checkout</h4>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
